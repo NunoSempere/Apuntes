@@ -146,7 +146,7 @@ Toda sucesión $\{x_n\}$ acotada posee una subsucesión convergente.
 \begin{proof}
 Supongamos que $a_0 ≤ x_n ≤ b_0\; \forall n$. Hay infinitos $\x_n$ distintos. Sea $I_0=[a_0, b_0]$: una de sus dos mitades, que llamaremos $I_1=[a_1,b_1]$, contiene infinitos elementos $x_n$. A su vez, una de sus dos mitades de $I_1$, a la que llamamos $I_2=[a_2, b_2]$, contiene infinitos elementos.
 
-Por recurrencia, existen intervalos $I_0 \subset I_1 \subset \cdots \subset I_k=[a_k, b_k]$ cada uno de los cuales contiene infinitos elementos de la sucesión. Además, la longitud de cada uno es la mitad del anterior. Observamos que $a_0 \leq a_1 \leq \cdots \leq a_k \leq a_{k+a} \leq \cdots \leq b_{k+1} \leq b_k \leq \cdots \leq b_1 \leq b_0$. Luego $\exists \lim_{k\to\infty}a_k =\lim_{k\to\infty}b_k$.
+Por recurrencia, existen intervalos $I_0 \supset I_1 \supset \cdots \supset I_k=[a_k, b_k]$ cada uno de los cuales contiene infinitos elementos de la sucesión. Además, la longitud de cada uno es la mitad del anterior. Observamos que $a_0 \leq a_1 \leq \cdots \leq a_k \leq a_{k+a} \leq \cdots \leq b_{k+1} \leq b_k \leq \cdots \leq b_1 \leq b_0$. Luego $\exists \lim_{k\to\infty}a_k =\lim_{k\to\infty}b_k$.
 
 Construimos la subsucesión de forma siguiente. $x_{n_1} \in I_1$, $x_{n_2} \in I_2$ pero con $n_1 < n_2$. Luego $\exists \lim_{k\to\infty} x_{n_k} = \lim_{k\to\infty}a_k =\lim_{k\to\infty}b_k$.
 \end{proof}
